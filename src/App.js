@@ -12,6 +12,7 @@ import Mobileapplication from './components/Mobileapplication';
 import Itconsulting from './components/Itconsulting';
 import Softwaretesting from './components/Softwaretesting';
 import Corporatetraining from './components/Corporatetraining';
+import Contactinfoupdate from './components/ContactInfo';
 import {
   BrowserRouter as Router,
   Routes,
@@ -37,6 +38,7 @@ function App() {
             <Route exact path='/Itconsulting' element={<Itconsulting />}/>
             <Route exact path='/Softwaretesting' element={<Softwaretesting />}/>
             <Route exact path='/Corporatetraining' element={<Corporatetraining />}/>
+            <Route exact path='/Contactinfoupdate' element={<Contactinfoupdate />}/>
           </Routes>
       </div>
     </Router>
